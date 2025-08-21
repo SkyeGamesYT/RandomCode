@@ -26,3 +26,18 @@ def vendingMachineFunction(choice: int):
     else:
         return None
 
+def f(x: int):
+    return x
+
+
+
+print(vendingMachineFunction(1))
+
+print("\n")
+
+print("Evaluate f(3) = 3x + 2")
+letF = 3
+print(f"f(3) = 3({letF}) + 2")
+print((3 * letF) + 2)
+
+
